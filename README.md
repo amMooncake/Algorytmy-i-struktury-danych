@@ -1,3 +1,3 @@
 # flutter_main
 
-A new Flutter project.
+Projekty na Algorytmy i struktury danych WSEI Kraków 2025
