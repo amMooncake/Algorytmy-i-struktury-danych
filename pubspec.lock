@@ -115,6 +115,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_confusion_matrix:
+    dependency: "direct main"
+    description:
+      name: flutter_confusion_matrix
+      sha256: "984cde6b632c218b781b7552b5308784071bd31c6e2b2347769336b2ae89360a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.2"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -136,6 +144,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.0"
+  gap:
+    dependency: "direct main"
+    description:
+      name: gap
+      sha256: f19387d4e32f849394758b91377f9153a1b41d79513ef7668c088c77dbc6955d
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.1"
   glob:
     dependency: transitive
     description:

@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_confusion_matrix: ^0.0.2
+  gap: ^3.0.1
   matrices: ^1.2.7
 
 dev_dependencies:

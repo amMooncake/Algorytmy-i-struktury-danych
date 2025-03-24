@@ -24,7 +24,6 @@ class MyMatrices {
 
     for (int i = 0; i < n; i++) {
       if (i == rowToRemove) continue;
-
       List<double> row = [];
       for (int j = 0; j < n; j++) {
         if (j == colToRemove) continue;
