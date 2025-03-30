@@ -49,7 +49,6 @@ class MyBiselection {
 
   bool sameSign(double n1, double n2) => (n1 * n2) > 0;
   double getPolynomial(double x) => a * pow(x, 5) + b * pow(x, 4) + c * pow(x, 3) + d * pow(x, 2) + e * x + f;
-  double roundTo(double value, double precision) => (value * precision).round() / precision;
 }
 
 void main() {
