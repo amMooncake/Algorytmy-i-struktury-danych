@@ -132,12 +132,14 @@ class _MainAppState extends State<MainApp> {
                   ],
                 ),
                 SizedBox(height: 20),
-                Text(
-                  roots == null ? "Tu będzie wynik" : "Roots: $roots",
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    color: roots == null ? Colors.grey : Colors.green,
+                SelectableText.rich(
+                  TextSpan(
+                    text: roots == null ? "Tu będzie wynik" : "Miejsca zerowe: ${roots.toString()}",
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: roots == null ? Colors.grey : Colors.green,
+                    ),
                   ),
                 ),
               ],
